@@ -21,4 +21,5 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 let g:ycm_semantic_triggers =  {
           \ 'css': ['re!\w{2}'],
+          \ 'html': ['re!\w{2}'],
           \ }
