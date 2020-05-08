@@ -20,6 +20,8 @@ let g:ycm_complete_in_comments = 1
 let g:ycm_complete_in_strings = 1
 let g:ycm_key_invoke_completion = '<c-z>'
 let g:ycm_semantic_triggers =  {
+          \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+          \ 'lua,javascript': ['re!\w{2}'],
           \ 'css': ['re!\w{2}'],
           \ 'html': ['re!\w{2}'],
           \ }
