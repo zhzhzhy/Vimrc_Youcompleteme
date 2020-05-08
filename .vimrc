@@ -1,6 +1,9 @@
 set number
 filetype plugin indent on
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+" 阻止YCM 自动弹出函数原型预览窗口
+set completeopt=menu,menuone
+let g:ycm_add_preview_to_completeopt=0
 " 不显示开启vim时检查ycm_extra_conf文件的信息  
 let g:ycm_confirm_extra_conf=0
 " 开启基于tag的补全，可以在这之后添加需要的标签路径  
