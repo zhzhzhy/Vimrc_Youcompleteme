@@ -12,5 +12,5 @@
 
 Then config your ycm_extra_config.py PATH
 
-#### **example in .vimrc**
+#### **Add PATH in .vimrc**
 `let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'`
